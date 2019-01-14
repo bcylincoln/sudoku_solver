@@ -104,14 +104,6 @@ def print_assignment(assignment):
 			i += 1
 		print(row)
 
-# game = Game()
-# game.populate_board()
-
-# grid_49 = read_euler_puzzle(GRID_49)
-
-# game.enforce_unary_constraints(grid_49)
-# assignment = backtracking_search(game)
-# print_assignment(assignment)
 
 solution_counter = 0
 for name, puzzle in get_puzzles():
